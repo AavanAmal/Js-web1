@@ -9,9 +9,7 @@
 
 :root {
 
-    /**
-     * colors
-     */
+    /* colors */
   
     --international-orange-engineering: hsl(1, 91%, 37%);
     --cadet-blue-creyola: hsl(222, 14%, 69%);
@@ -25,9 +23,7 @@
     --light-gray: hsl(0, 0%, 80%);
     --white: hsl(0, 0%, 100%);
   
-    /**
-     * typography
-     */
+    /* typography */
   
     --ff-chakra-petch: 'Chakra Petch', sans-serif;
     --ff-mulish: 'Mulish', sans-serif;
@@ -43,28 +39,20 @@
     --fw-600: 600;
     --fw-700: 700;
   
-    /**
-     * spacing
-     */
+    /* spacing */
   
     --section-padding: 60px;
   
-    /**
-     * box shadow
-     */
+    /* box shadow */
   
     --shadow: 0px 0px 100px 0px hsl(216, 9%, 90%);
   
-    /**
-     * border radius
-     */
+    /* border radius */
   
     --radius-pill: 100px;
     --radius-circle: 50%;
   
-    /**
-     * transition
-     */
+    /* transition */
   
     --transition: 0.25s ease;
     --cubic-out: cubic-bezier(0.05, 0.83, 0.52, 0.97);
@@ -75,9 +63,9 @@
   
   
   
-  /*-----------------------------------*\
+  /*-----------------------------------*/
     #RESET
-  \*-----------------------------------*/
+
   
   *,
   *::before,
@@ -135,11 +123,7 @@
   
   
   
-  
-  
-  /*-----------------------------------*\
-    #REUSED STYLE
-  \*-----------------------------------*/
+
   
   .container { 
     padding-inline: 16px; 
@@ -180,16 +164,7 @@
     background-size: contain;
     background-position: center;
   }
-  
-  .section-subtitle.\:dark { color: var(--white); }
-  
-  .section-subtitle.\:dark::before { background-image: url('../images/text-bars-light.png'); }
-  
-  .section-subtitle.\:light { color: var(--international-orange-engineering); }
-  
-  .section-subtitle.\:light::before { background-image: url('../images/text-bars-dark.png'); }
-  
-  .section-title { text-align: center; }
+
   
   .h1,
   .h2,
@@ -306,9 +281,7 @@
   
   
   
-  /*-----------------------------------*\
-    #HEADER
-  \*-----------------------------------*/
+  /*------------Header-------------*/
   
   .header .btn { display: none; }
   
@@ -386,9 +359,7 @@
   
   
   
-  /*-----------------------------------*\
-    #HERO
-  \*-----------------------------------*/
+  /*-------------Home---------------*/
   
   .hero {
     position: relative;
@@ -426,9 +397,7 @@
   
   
   
-  /*-----------------------------------*\
-    #SERVICE
-  \*-----------------------------------*/
+  /*-----------Service---------------*/
   
   .service-banner { display: none; }
   
@@ -456,9 +425,7 @@
   
   
   
-  /*-----------------------------------*\
-    #ABOUT
-  \*-----------------------------------*/
+  /*--------------About----------------*/
   
   .about {
     background-color: var(--space-cadet);
@@ -501,9 +468,7 @@
   
   
   
-  /*-----------------------------------*\
-    #WORK
-  \*-----------------------------------*/
+  /*-------------Work---------------*/
   
   .work .container { padding-inline: 0; }
   
@@ -548,9 +513,7 @@
   
   
   
-  /*-----------------------------------*\
-    #FOOTER
-  \*-----------------------------------*/
+  /*--------------Footer---------------*/
   
   .footer { color: var(--cadet-blue-creyola); }
   
